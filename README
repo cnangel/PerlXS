@@ -1,0 +1,5 @@
+PerlXS Talk for Perl Conference
+
+[Build]
+xulapp debug perlxs.xul --profile dev
+
