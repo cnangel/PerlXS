@@ -1,5 +1,4 @@
-PerlXS Talk for Perl Conference
+Label for Note
 
 [Build]
-xulapp debug perlxs.xul --profile dev
-
+xulapp debug label.xul --profile note
