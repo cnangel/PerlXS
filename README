@@ -1,4 +1,15 @@
-Label for Note
+Some Tools for Firefox Extensions
 
-[Build]
+This use the L<XUL::App> for Firefox Extensions.
+
+
+[BUILD]
+xulapp app -name "Label"
+xulapp view -name Talk -type window
+xulapp po -lang zh_cn
+
+[TEST]
 xulapp debug label.xul --profile note
+
+[PACKAGE]
+xulapp bundle .
