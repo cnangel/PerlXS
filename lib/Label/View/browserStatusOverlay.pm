@@ -17,6 +17,14 @@ template main => sub {
 
         }
         # Add your elements here...
+		statusbar {
+			attr {
+				id => "status-bar",
+			}
+			statusbarpanel {
+				id => "fbStatusBar",
+			}
+		}
 
     }
 };
