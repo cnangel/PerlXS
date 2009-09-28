@@ -2,7 +2,6 @@ Some Tools for Firefox Extensions
 
 This use the L<XUL::App> for Firefox Extensions.
 
-
 [BUILD]
 xulapp app -name "Label"
 xulapp view -name Talk -type window
