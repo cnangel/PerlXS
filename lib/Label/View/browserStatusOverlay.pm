@@ -13,10 +13,7 @@ template main => sub {
         attr {
             id => "label-browserstatusoverlay",
             xmlns => $::XUL_NAME_SPACE,
-            #'xmlns:html' => $::HTML_NAME_SPACE,  # HTML namespace support
-
         }
-        # Add your elements here...
 		statusbar {
 			attr {
 				id => "status-bar",
@@ -25,8 +22,18 @@ template main => sub {
 				id => "fbStatusBar",
 			}
 		}
-
-    }
+	}
+	window {
+		attr {
+			id => "label-label",
+		    xmlns => $::XUL_NAME_SPACE,
+				   title => 'Label',
+				   width => 800,
+				   height => 600,
+				   persist => 'sizemode screenX screenY width height',
+		}
+		label { "hello, world!" }
+	}
 };
 
 1;

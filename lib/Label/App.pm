@@ -6,6 +6,10 @@ our $VERSION = '0.01';
 
 use XUL::App::Schema;
 use XUL::App schema {
+	xulfile 'label.xul' =>
+		generated from 'Label::View::Label';
+	xulfile 'bso.xul' =>
+		generated from 'Label::View::browserStatusOverlay';
     xpifile 'label.xpi' =>
         name is 'Label',
         display_name is 'Label',
